@@ -1,0 +1,116 @@
+JOB ID Summary:
+SLURM_JOBID:  22179928
+SLURM_ARRAY_TASK_ID:  5
+SLURM_ARRAY_JOB_ID:  22179689
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using images.internal.nifti.niftiFile/getUncompressedFileName (line 172)
+The file /scratch/polynlab/fmri/cdcatmr/all_subjects/masks/resliced/temp does
+not exist.
+
+Error in images.internal.nifti.niftiFile (line 51)
+                    [filename, tempfileCleaner, ext] =
+                    self.getUncompressedFileName(firstFile);
+
+Error in niftiread (line 66)
+    NF = images.internal.nifti.niftiFile(varargin{:});
+
+Error in recall_beta2roi (line 20)
+    curMask =
+    niftiread(['/scratch/polynlab/fmri/cdcatmr/all_subjects/masks/resliced/',
+    masks{m}]);
+} 
+filtering out 0 padded rows
+1/83 overwrote pattern rACC_sub_lr.txt
+2/83 overwrote pattern rACC_sup_lr.txt
+3/83 overwrote pattern rAmygdala_lr.txt
+4/83 overwrote pattern rAngular_lr.txt
+5/83 overwrote pattern rCalcarine_lr.txt
+6/83 overwrote pattern rCaudate_lr.txt
+7/83 overwrote pattern rCerebellum_10_lr.txt
+8/83 overwrote pattern rCerebellum_3_lr.txt
+9/83 overwrote pattern rCerebellum_4_5_lr.txt
+10/83 overwrote pattern rCerebellum_6_lr.txt
+11/83 overwrote pattern rCerebellum_7b_lr.txt
+12/83 overwrote pattern rCerebellum_8_lr.txt
+13/83 overwrote pattern rCerebellum_9_lr.txt
+14/83 overwrote pattern rCerebellum_Crus1_lr.txt
+15/83 overwrote pattern rCerebellum_Crus2_lr.txt
+16/83 failed pattern rCingulate_Ant_lr.txt
+17/83 overwrote pattern rCingulate_Mid_lr.txt
+18/83 overwrote pattern rCingulate_Post_lr.txt
+19/83 overwrote pattern rCuneus_lr.txt
+20/83 overwrote pattern rFrontal_Inf_Oper_lr.txt
+21/83 overwrote pattern rFrontal_Inf_Orb_2_lr.txt
+22/83 overwrote pattern rFrontal_Inf_Tri_lr.txt
+23/83 overwrote pattern rFrontal_Med_Orb_lr.txt
+24/83 overwrote pattern rFrontal_Mid_2_lr.txt
+25/83 overwrote pattern rFrontal_Sup_2_lr.txt
+26/83 overwrote pattern rFrontal_Sup_Medial_lr.txt
+27/83 overwrote pattern rFusiform_lr.txt
+28/83 overwrote pattern rHeschl_lr.txt
+29/83 overwrote pattern rHippocampus_lr.txt
+30/83 overwrote pattern rInsula_lr.txt
+31/83 overwrote pattern rLC_lr.txt
+32/83 overwrote pattern rLingual_lr.txt
+33/83 overwrote pattern rN_Acc_lr.txt
+34/83 overwrote pattern rOFCant_lr.txt
+35/83 overwrote pattern rOFClat_lr.txt
+36/83 overwrote pattern rOFCmed_lr.txt
+37/83 overwrote pattern rOFCpost_lr.txt
+38/83 overwrote pattern rOccipital_Inf_lr.txt
+39/83 overwrote pattern rOccipital_Mid_lr.txt
+40/83 overwrote pattern rOccipital_Sup_lr.txt
+41/83 overwrote pattern rOlfactory_lr.txt
+42/83 overwrote pattern rPallidum_lr.txt
+43/83 overwrote pattern rParaHippocampal_lr.txt
+44/83 overwrote pattern rParacentral_Lobule_lr.txt
+45/83 overwrote pattern rParietal_Inf_lr.txt
+46/83 overwrote pattern rParietal_Sup_lr.txt
+47/83 overwrote pattern rPostcentral_lr.txt
+48/83 overwrote pattern rPrecentral_lr.txt
+49/83 overwrote pattern rPrecuneus_lr.txt
+50/83 overwrote pattern rPutamen_lr.txt
+51/83 overwrote pattern rRaphe_lr.txt
+52/83 overwrote pattern rRectus_lr.txt
+53/83 overwrote pattern rRed_N_lr.txt
+54/83 overwrote pattern rRolandic_Oper_lr.txt
+55/83 overwrote pattern rSN_pc_lr.txt
+56/83 overwrote pattern rSN_pr_lr.txt
+57/83 overwrote pattern rSupp_Motor_Area_lr.txt
+58/83 overwrote pattern rSupraMarginal_lr.txt
+59/83 overwrote pattern rTemporal_Inf_lr.txt
+60/83 overwrote pattern rTemporal_Mid_lr.txt
+61/83 overwrote pattern rTemporal_Pole_Mid_lr.txt
+62/83 overwrote pattern rTemporal_Pole_Sup_lr.txt
+63/83 overwrote pattern rTemporal_Sup_lr.txt
+64/83 overwrote pattern rThal_AV_lr.txt
+65/83 overwrote pattern rThal_IL_lr.txt
+66/83 overwrote pattern rThal_LGN_lr.txt
+67/83 overwrote pattern rThal_LP_lr.txt
+68/83 overwrote pattern rThal_MDl_lr.txt
+69/83 overwrote pattern rThal_MDm_lr.txt
+70/83 overwrote pattern rThal_MGN_lr.txt
+71/83 overwrote pattern rThal_PuA_lr.txt
+72/83 overwrote pattern rThal_PuI_lr.txt
+73/83 overwrote pattern rThal_PuL_lr.txt
+74/83 overwrote pattern rThal_PuM_lr.txt
+75/83 overwrote pattern rThal_Re_lr.txt
+76/83 overwrote pattern rThal_VA_lr.txt
+77/83 overwrote pattern rThal_VL_lr.txt
+78/83 overwrote pattern rThal_VPL_lr.txt
+79/83 failed pattern rThalamus_lr.txt
+80/83 overwrote pattern rVTA_lr.txt
+81/83 overwrote pattern rVermis_1_lr.txt
+82/83 overwrote pattern rVermis_4_lr.txt
+83/83 overwrote pattern rVermis_lr.txt
+ALL DONE!

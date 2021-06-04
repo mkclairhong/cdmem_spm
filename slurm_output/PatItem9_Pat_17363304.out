@@ -1,0 +1,28 @@
+JOB ID Summary:
+SLURM_JOBID:  17363304
+SLURM_ARRAY_TASK_ID:  9
+SLURM_ARRAY_JOB_ID:  17363304
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using csvwrite (line 47)
+Cannot open file
+/scratch/polynlab/fmri/cdcatmr/cdcatmr009/patterns/txt/rACC_sub_lr.txt.
+
+Error in beta2roi (line 42)
+    csvwrite(['/scratch/polynlab/fmri/cdcatmr/cdcatmr', subj, '/patterns/txt/',
+    name, '.txt'], pats)
+} 
+JOB ID Summary:
+SLURM_JOBID:  17363304
+SLURM_ARRAY_TASK_ID:  9
+SLURM_ARRAY_JOB_ID:  17363304
+ALL DONE!

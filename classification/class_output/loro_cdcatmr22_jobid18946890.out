@@ -1,0 +1,17 @@
+SLURM_JOBID:  18946914
+SLURM_ARRAY_TASK_ID:  22
+SLURM_ARRAY_JOB_ID:  18946890
+Quick Usage: loro_roi(subjID)
+1/9: rFrontal_Med_Orb_lr started
+2/9: rFusiform_lr started
+3/9: rHippocampus_lr started
+4/9: rParaHippocampal_lr started
+5/9: rTemporal_Inf_lr started
+6/9: rTemporal_Mid_lr started
+7/9: rTemporal_Pole_Mid_lr started
+8/9: rTemporal_Pole_Sup_lr started
+9/9: rTemporal_Sup_lr started
+successfully saved as /scratch/polynlab/fmri/cdcatmr/cdcatmr022/patterns/cdcatmr022class_prob_sag.csv
+Completed: 9/9
+Skipped 0 ROIs
+successfully saved as /scratch/polynlab/fmri/cdcatmr/cdcatmr022/patterns/cdcatmr022class_LORO_sag.csv

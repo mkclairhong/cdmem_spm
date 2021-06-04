@@ -1,0 +1,36 @@
+JOB ID Summary:
+SLURM_JOBID:  18863971
+SLURM_ARRAY_TASK_ID:  12
+SLURM_ARRAY_JOB_ID:  18863971
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using images.internal.nifti.niftiFile/getUncompressedFileName (line 172)
+The file /scratch/polynlab/fmri/cdcatmr/all_subjects/masks/resliced/temp does
+not exist.
+
+Error in images.internal.nifti.niftiFile (line 51)
+                    [filename, tempfileCleaner, ext] =
+                    self.getUncompressedFileName(firstFile);
+
+Error in niftiread (line 66)
+    NF = images.internal.nifti.niftiFile(varargin{:});
+
+Error in beta2roi (line 21)
+    curMask =
+    niftiread(['/scratch/polynlab/fmri/cdcatmr/all_subjects/masks/resliced/',
+    masks{m}]);
+} 
+JOB ID Summary:
+SLURM_JOBID:  18863971
+SLURM_ARRAY_TASK_ID:  12
+SLURM_ARRAY_JOB_ID:  18863971
+ALL DONE!

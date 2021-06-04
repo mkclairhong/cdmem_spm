@@ -1,0 +1,90 @@
+JOB ID Summary:
+SLURM_JOBID:  16845419
+SLURM_ARRAY_TASK_ID:  3
+SLURM_ARRAY_JOB_ID:  16845385
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Function iscolumn has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function ismatrix has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function isrow has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function narginchk has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function isequaln has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function contains has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function endsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function newline has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function startsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function isfile has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+[Warning: Function isfolder has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)
+  In raw2pat (line 3)] 
+{Error using images.internal.nifti.niftiFile/getUncompressedFileName (line 146)
+The file
+/scratch/polynlab/fmri/cdcatmr/cdcatmr003/images/func/func5/wrfunc5_00093.nii
+does not exist.
+
+Error in images.internal.nifti.niftiFile (line 45)
+                    [filename, self.TempfileCleaners, ~] =
+                    self.getUncompressedFileName(firstFile);
+
+Error in niftiread (line 66)
+    NF = images.internal.nifti.niftiFile(varargin{:});
+
+Error in raw2pat (line 62)
+            temp_beta = niftiread(char(fileNames(i)));
+} 
+JOB ID Summary:
+SLURM_JOBID:  16845419
+SLURM_ARRAY_TASK_ID:  3
+SLURM_ARRAY_JOB_ID:  16845385
+ALL DONE!

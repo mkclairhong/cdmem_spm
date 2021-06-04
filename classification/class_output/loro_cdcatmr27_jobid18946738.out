@@ -1,0 +1,25 @@
+SLURM_JOBID:  18946748
+SLURM_ARRAY_TASK_ID:  27
+SLURM_ARRAY_JOB_ID:  18946738
+/home/jeonj1/.conda/envs/py3/lib/python3.6/site-packages/sklearn/discriminant_analysis.py:388: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+/home/jeonj1/.conda/envs/py3/lib/python3.6/site-packages/sklearn/discriminant_analysis.py:388: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+/home/jeonj1/.conda/envs/py3/lib/python3.6/site-packages/sklearn/discriminant_analysis.py:388: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+/home/jeonj1/.conda/envs/py3/lib/python3.6/site-packages/sklearn/discriminant_analysis.py:388: UserWarning: Variables are collinear.
+  warnings.warn("Variables are collinear.")
+Quick Usage: loro_roi(subjID)
+1/9: rFrontal_Med_Orb_lr started
+2/9: rFusiform_lr started
+3/9: rHippocampus_lr started
+4/9: rParaHippocampal_lr started
+5/9: rTemporal_Inf_lr started
+6/9: rTemporal_Mid_lr started
+7/9: rTemporal_Pole_Mid_lr started
+8/9: rTemporal_Pole_Sup_lr started
+9/9: rTemporal_Sup_lr started
+successfully saved as /scratch/polynlab/fmri/cdcatmr/cdcatmr027/patterns/cdcatmr027class_prob.csv
+Completed: 9/9
+Skipped 0 ROIs
+successfully saved as /scratch/polynlab/fmri/cdcatmr/cdcatmr027/patterns/cdcatmr027class_LORO.csv

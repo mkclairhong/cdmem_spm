@@ -1,0 +1,44 @@
+JOB ID Summary:
+SLURM_JOBID:  17324224
+SLURM_ARRAY_TASK_ID:  29
+SLURM_ARRAY_JOB_ID:  17324224
+Let's run createEvents.m
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Successfully saved stimOnset as /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/stimOnset.mat
+Successfully saved cond as /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/cond.mat
+Successfully saved duration as /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/duration.mat
+Let's run makeRunMats.m
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run1.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run2.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run3.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run4.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run5.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run6.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run7.mat
+Successfully saved for /scratch/polynlab/fmri/cdcatmr/cdcatmr029/events/glm/run8.mat
+JOB ID Summary:
+SLURM_JOBID:  17324224
+SLURM_ARRAY_TASK_ID:  29
+SLURM_ARRAY_JOB_ID:  17324224
+ALL DONE!

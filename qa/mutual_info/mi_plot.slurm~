@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --mail-user=jin.young.jeon@vanderbilt.edu
+#SBATCH --mail-type=ALL
+#SBATCH --job-name=MIPlot
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --time=15:00:00
+#SBATCH --mem=10G
+#SBATCH --cpus-per-task=12
+#SBATCH --array=4-8
+#SBATCH --output=/home/jeonj1/proj/mi/slurm_output/MIPlot_cdcatmr%a_jobid%A.out
+
+echo "SLURM_JOBID: " $SLURM_JOBID
+echo "SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
+echo "SLURM_ARRAY_JOB_ID: " $SLURM_ARRAY_JOB_ID
+
+source activate py3
+python -c "from mi_plot_accre import *; mi_plot('$SLURM_ARRAY_TASK_ID', verbose=True)"

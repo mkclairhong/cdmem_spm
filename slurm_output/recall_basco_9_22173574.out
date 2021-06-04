@@ -1,0 +1,115 @@
+JOB ID Summary:
+SLURM_JOBID:  22173933
+SLURM_ARRAY_TASK_ID:  9
+SLURM_ARRAY_JOB_ID:  22173574
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/gpfs52/home/jeonj1/proj/cdcat_spm/recall/create_recall_onsets.py", line 15, in create_recall_onsets
+    onsets = list(map(int, onsets))
+ValueError: invalid literal for int() with base 10: '137.0'
+Let's run item_glm.m
+Unable to open file for Java VM logging
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Function iscolumn has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function ismatrix has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function isrow has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function narginchk has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function isequaln has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function contains has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function endsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function newline has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function startsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function isfile has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+[Warning: Function isfolder has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+  In addpath (line 86)] 
+Running model specification and estimation ...
+recall_glm_batch(9)
+     8
+
+
+AnaDef = 
+
+  struct with fields:
+
+                   Img: 'nii'
+                 Img4D: 0
+               NumCond: 27
+                  Cond: {27x1 cell}
+                 units: 'scans'
+                    RT: 2
+                fmri_t: 16
+               fmri_t0: 9
+                OutDir: 'recall_beta'
+                Prefix: 'wrfunc'
+         OnsetModifier: 0
+         VoxelAnalysis: 1
+           ROIAnalysis: 1
+                ROIDir: '/gpfs52/home/jeonj1/matlab/spm12/BASCO/rois/AALROI90'
+             ROIPrefix: 'MNI_'
+              ROINames: '/gpfs52/home/jeonj1/matlab/spm12/BASCO/rois/AALROI90/AALROINAMES.txt'
+    ROISummaryFunction: 'mean'
+             HRFDERIVS: [0 0]
+             MotionReg: 1
+         GlobalMeanReg: 0
+               Outfile: '/scratch/polynlab/fmri/cdcatmr/cdcatmr009/model/recall_single_est.mat'
+                  Subj: {[1x1 struct]}
+           NumSubjects: 1
+
+Number of subjects: 1
+
+str =
+
+    '====>> Processing subject 1 <<===='
+
+Directory run 1: /scratch/polynlab/fmri/cdcatmr/cdcatmr009/images/func/func1 
+Onsets: /scratch/polynlab/fmri/cdcatmr/cdcatmr009/images/func/func1/rec_onsets_1.csv 
+{Error using dlmread (line 62)
+The file
+'/scratch/polynlab/fmri/cdcatmr/cdcatmr009/images/func/func1/rec_onsets_1.csv'
+could not be opened because: No such file or directory
+
+Error in basco_batch (line 102)
+        onsets     = dlmread(onsetfile); % read onsets
+} 
+ALL DONE!
